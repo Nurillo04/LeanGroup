@@ -1,0 +1,47 @@
+.hero {
+  background-image: url(../../assets/images/picture/hero_bg.png);
+  padding: 162px 116px;
+  &__title5 {
+    color: #2c2d2e;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+  }
+  &__title3 {
+    padding: 16px 0px;
+    color: #2c2d2e;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  &__text {
+    width: 490px;
+    color: #2c2d2e;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  &__btn {
+    margin-top: 26px;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background: #ef7c00;
+    color: var(--text-color-text-contrast, #fff);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}

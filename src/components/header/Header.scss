@@ -18,6 +18,7 @@
     gap: 42px;
   }
   &__item {
+    cursor: pointer;
     color: var(--color-text, #2c2d2e);
     font-feature-settings: "clig" off, "liga" off;
     font-family: Montserrat;
